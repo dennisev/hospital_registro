@@ -165,18 +165,3 @@ streamlit
 pandas
 Pillow
 ```
-
-## Notas y Consideraciones
-
-- **Versión de Streamlit**: Asegúrate de estar utilizando una versión reciente de Streamlit para garantizar la compatibilidad con todas las funciones utilizadas.
-
-- **Permisos de Escritura**: Verifica que tienes permisos de escritura en la carpeta `data/` para que la aplicación pueda guardar el archivo `patients.csv`.
-
-- **Seguridad**: Esta aplicación utiliza una autenticación básica con credenciales almacenadas en texto plano. Para un entorno de producción, es recomendable implementar un sistema de autenticación más seguro.
-
-- **Personalización Adicional**: Si deseas modificar la interfaz o agregar nuevas funcionalidades, puedes explorar la documentación de Streamlit para conocer más opciones.
-
-## Recursos Adicionales
-
-- **Documentación de Streamlit**: [https://docs.streamlit.io/](https://docs.streamlit.io/)
-- **Documentación de Pandas**: [https://pandas.pydata.org/docs/](https://pandas.pydata.org/docs/

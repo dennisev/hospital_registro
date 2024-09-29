@@ -149,19 +149,6 @@ Esta aplicación permite registrar pacientes en un hospital y guardar sus datos 
 
 - En cualquier momento, puedes cerrar sesión haciendo clic en "Cerrar Sesión" en la esquina superior derecha de la página de registro.
 
-## Personalización
-
-### Modificar las Imágenes
-
-- Reemplaza `imagen1.png` y `imagen2.png` en la carpeta `images/` con tus propias imágenes.
-- Asegúrate de que las imágenes tengan dimensiones similares para una mejor visualización.
-- En el código, puedes ajustar las imágenes para que tengan el mismo ancho utilizando el parámetro `use_column_width=True` en `st.image()`.
-
-### Ajustes en la Configuración
-
-- Si deseas modificar la configuración de la aplicación, puedes editar el archivo `.streamlit/config.toml`.
-- Puedes cambiar el tema, colores y otras opciones disponibles en la documentación de Streamlit.
-
 ## Dependencias
 
 El archivo `requirements.txt` contiene las siguientes dependencias:
